@@ -1,0 +1,574 @@
+/*CSS Documento*/
+
+body {
+    font-family: "Century Ghotic";
+    line-height: 20px;
+    font-size: 16px;
+    color: rgb(177, 177, 187);
+}
+
+.topo {
+   background-color: rgb(255, 255, 255);
+    width: 1100px;
+    height:150px;
+    margin: auto;
+}
+
+.tel {
+    color: rgb(255, 80, 80);
+    position: relative;
+    margin-left: 800px;
+    margin-top: 12px;
+}
+/*logo*/
+.logo img{
+    float: left;
+    width: 205px;
+    height: 95px;
+    position: relative;
+    margin-bottom: 18px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+/*menu*/
+.topo .menu ul {
+    font-family: Agency FB;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    float: right;
+    margin: 90px 55px 0 100px;
+}
+
+.topo .menu ul li {
+    display: inline;
+    padding: 10px 0 0 60px;
+}
+
+.topo .menu ul li a {
+    color: rgb(0, 4, 10);
+    text-decoration: none;
+}
+
+.topo .menu ul li a:hover {
+    color:  rgb(106, 150, 201);
+}
+
+.topo .menu ul li .active {
+    color:  rgb(106, 150, 201);
+    font-weight: bold;
+}
+
+/*inicio pagina inicial*/
+#fundo_inicial {
+    width: 1343px;
+    height: 1885px;
+    margin: 1px auto 0px auto;
+    background-color: rgb(255, 254, 254);
+}
+/*banner*/
+.home img{
+    width: 1280px;
+    height: 395px;
+    margin-bottom:20px;
+    margin: -8px;
+   margin-left: 30px;
+} 
+
+.box_txt1 {
+    position: relative;
+    font-size: 60px;
+    margin: 20px;
+    margin-left: 500px;
+    color: rgb(20, 1, 1);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.box_txt1 h1 {
+    position: relative;
+    font-size: 30px;
+    margin: 25px;
+    margin-left: -200px;
+    color: rgb(20, 1, 1);;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*regua*/
+.regua {
+    width: 950px;
+    margin: auto;
+    border: 1px solid #ccc;
+    clear: both;
+}
+
+.imagem2 img{
+    width: 300px;
+    height: 320px;
+    margin: 100px;
+    margin-top: 77px;
+    margin-left: 183px;
+} 
+
+.box_txt2 {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 300px;
+    float: right;
+    position: relative;
+    margin: 130px;
+    font-size: 30px;
+    color: rgb(12, 1, 1);;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box_txt2 h2 {
+    position: relative;
+    font-size: 16px;
+    margin: 25px;
+    margin-left: 0px;
+    color: rgb(126, 122, 122);;
+    font-family: Calibri Light (Títulos);
+}
+
+.box_txt2 p {
+    position: relative;
+    font-size: 16px;
+}
+
+.box_txt2 a {
+    font-size: 16px;
+    text-decoration: none; 
+    color:rgb(250, 11, 11); 
+}
+
+.box_txt2 a:hover {
+    font-size: 16px;
+    text-decoration: underline; 
+    color:rgb(236, 70, 70); 
+}
+
+/*fundo com duas fotos*/
+#fundo_inicial2 {
+    width: 1346px;
+    height: 550px;
+    margin: -90px auto 25px auto;
+    background-color:rgb(241, 238, 238);
+    margin-bottom: -4px;
+    margin-top: -160px;
+}
+
+
+.box_txt3  {
+    font-size: 16px;
+    color:rgb(90, 89, 89);
+    margin-left: -850px;
+    margin-top: -38px;
+    text-align: center;
+}
+
+.box_txt3 h3{
+    position: relative;
+    font-size: 18px;
+    margin: 2px;
+    color: rgb(233, 10, 10); 
+    font-family: Calibri Light (Títulos);
+}
+
+/*duas fotos uma no lado da outra*/
+.fotos {
+    padding:0 50px;
+text-align: center;
+}
+
+.fotos2 {
+    padding:0 15px;
+text-align: center;
+margin-top: 120px;
+margin-left: 120px;
+}
+
+.fotos article{
+    margin: 60px 0;
+}
+
+.fotos article img{
+    max-width: 90%;
+    width: 210px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.fotos article h2 {
+    font-size: 18px;
+    color: red;
+    margin-top: 20px;
+   
+}
+.fotos article h3 {
+    font-size: 15px;
+    color: rgb(90, 89, 89);
+    margin-top: 20px;
+}
+
+.fotos article {
+float: left;
+width: 45%;
+margin-left: 30px;
+margin-top: -12px;
+}
+
+/*rodape*/
+#fundo_inicial3 {
+    margin-top: 5px;
+    margin-left: -3px;
+    width: 1348px;
+    height: 350px;
+    background-color:rgb(34, 8, 8);
+}
+
+.texto {
+  width: 280px;
+  height: 200px;
+  float: left;
+  position: relative;
+  margin: 15px;
+  margin-left: 100px;
+  color: rgb(192, 186, 186);
+}
+
+.texto h4{
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+}
+
+.regua2 {
+    width: 940px;
+    margin:30px;
+    margin-left: 1px;
+    border: 1px solid #ccc;
+    clear: both;
+}
+
+.redesociais {
+  width: 65px;
+  height: 80px;
+  background-color:rgb(34, 8, 8);
+  margin-left: 700px;
+  font-size: 20px;
+  color: rgb(253, 253, 253);
+  font-weight: bold;
+  transition: all 0.10s ease-out;
+}
+
+.rede {
+    width: 80px;
+    height: 20px;
+}
+
+.face img {
+  width: 30px;
+  margin-top: 20px;
+}
+.face:hover {
+    opacity: 0.700;
+}
+
+
+.twiter img {
+ width: 30px;
+ float: right;
+ margin-top: -33px;
+ margin-left: 100px;
+ margin-right: -20px;
+ border-radius: 50px;
+}
+
+.twiter:hover {
+    opacity: 0.700;
+}
+
+
+/*fim da pagina inicial*/
+/***/
+/*******/
+/***********/
+/*pagina sobre nós*/
+#fundo_sobre {
+    width: 1343px;
+    height: 900px;
+    margin: 10px auto 20px auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.sobrenos {
+    margin-left:-3px;
+    width: 1349px;
+    height: 70px;
+    background-color: rgb(32, 82, 110);
+}
+
+.sobrenos h5{
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 510px;
+    font-family: Times New Roman;
+    color:white;
+}
+
+.empresa {
+    margin-left: 85px;
+    padding-top: 80px;
+    color: rgb(17, 1, 1);
+    font-size: 28px;
+}
+
+.empresa h6{
+  padding-top: 18px;
+    color: rgb(126, 122, 122);
+    font-size: 18px;
+}
+
+.imagem3 img {
+    width: 900px;
+    height: 460px;
+    margin-top: -268px;
+    margin-left:446px;
+    opacity:0.19;
+	-moz-opacity: 0.70;
+	filter: alpha(opacity=70);
+}
+
+#fundo_inicial4 {
+    margin-top: 117px;
+    margin-left: -3px;
+    width: 1348px;
+    height: 350px;
+    background-color:rgb(34, 8, 8);
+}
+
+
+/*fim da pagina sobre nós*/
+
+/***/
+/*******/
+/***********/
+/*pagina serviços*/
+
+
+.text {
+font-size: 30px;
+margin-top: 60px;
+color: black;
+margin-left: 90px;
+}
+
+.tex {
+    margin-top: -80px;
+    text-align: justify;
+    margin-left: 90px;
+    color: rgb(126, 122, 122);
+}
+
+.ctb img {
+    margin-bottom: -40px;
+    padding: 50px;
+    width: 80px;
+    height: 80px;
+    margin-top: 80px;
+    margin-left: 195px;
+}
+
+.fiscal img {
+    width: 180px;
+    height: 190px;
+    margin-top: -108px;
+    margin-left: 520px;
+}
+
+.rh img {
+    width: 100px;
+    height: 100px;
+    margin-left: 1500px;
+    margin-top: -200px;
+}
+
+.texto1 p {
+    text-align: center;
+    margin-right: 780px;
+    font-size: 20px;
+    color: red;
+    margin-left: 230px;
+}
+
+.texto1 {
+    text-align: center;
+    margin-right: 780px;
+    color: rgb(126, 122, 122);  
+}
+
+.texto2 {
+    font-size: 20px;
+    color: red;
+    margin-left: 650px;
+    margin-top: -115px;
+}
+
+.texto3 {
+    margin-left: 20px;
+    margin-top: 29px;
+    color: rgb(126, 122, 122);
+    text-align: center;
+}
+
+.texto4 {
+        color: red;
+        margin-left: 1042px;
+        margin-top: -145px;
+}
+
+.texto5 {
+    color: rgb(126, 122, 122);
+    margin-left: 800px;
+    text-align: center;
+    margin-top: 34px;
+}
+
+#fundo_inicial5 {
+    margin-top: 300px;
+    margin-left: -3px;
+    width: 1348px;
+    height: 340px;
+    background-color:rgb(34, 8, 8);
+}
+
+/*fim da pagina serviço*/
+
+
+
+/***/
+/*******/
+/***********/
+/*pagina contato*/
+
+
+.contat {
+    margin-right: 10px;
+  margin-bottom: 18px;
+    font-size: 29px;
+    color: rgb(59, 6, 6);
+}
+.contato {
+    margin-left: 180px;
+    margin-top: 150px;
+    color:rgb(126, 122, 122);
+  font-size: 17px;
+  font-family:Aharoni;
+  color: rgb(59, 55, 55);
+}
+
+
+#formulario {
+    margin-right: 500px;
+}
+
+form,input,select,textarea{margin:0; padding:0; color:#080101;}
+
+div.box {
+    margin:0 auto;
+    width:600px;
+    background:#cec8c5;
+    position:relative;
+    top:100px;
+    border:3px solid #918686;
+}
+
+div.box h1 { 
+    color:#140101;
+    font-size:19px;
+    text-transform:uppercase;
+    padding:5px 10px 5px 15px;
+    border-bottom:1px solid #ffffff;
+    border-top:1px solid #787975; 
+}
+
+div.box label {
+    width:100%;
+    display: block;
+    background:rgb(219, 206, 202);
+    border-top:1px solid #f8f6f6;
+    border-bottom:1px solid #fdfdfb;
+    padding:10px 0 10px 0;
+}
+
+div.box label span {
+    display: block;
+    color:#080101;
+    font-size:14px;
+    float:left;
+    width:100px;
+    text-align:right;
+    padding:10px 20px 0 0;
+}
+
+div.box .input_text {
+    padding:10px 10px;
+    width:250px;
+    background:#f5f1f1;
+    border-bottom: 1px double #f8f2f2;
+    border-top: 1px double #faf7f7;
+    border-left:1px double #f5f2f2;
+    border-right:1px double #f5efef;
+}
+
+div.box .message{
+    padding:7px 7px;
+    width:350px;
+    background:#f8f5f5;
+    border-bottom: 1px double #eeeaea;
+    border-top: 1px double #f7f3f3;
+    border-left:1px double #f8f5f5;
+    border-right:1px double #f8f6f6;
+    overflow:hidden;
+    height:190px;
+}
+
+div.box .button{
+    margin:0 0 17px 0;
+    padding:4px 7px;
+    background:#CC0000;
+    border:10px;
+    position: relative;
+    top:15px;
+    left:2px;
+    width:100px;
+    border-bottom: 1px double #f5eded;
+    border-top: 1px double #f7f4f4;
+    border-left:1px double rgb(250, 247, 247);
+    border-right:1px double rgb(247, 242, 243);
+}
+
+.endereco {
+    color: #070000;
+    margin-left: 800px;
+    margin-top: -300px;
+}   
+
+.mapa {
+    width: 1000px;
+    height: 600px;
+    margin-top: 570px;
+    margin-left: 45px;
+}
+
+#fundo_inicial6 {
+    margin-top: 70px;
+    margin-left: -3px;
+    width: 1352px;
+    height: 330px;
+    background-color:rgb(34, 8, 8);
+}
+
+
